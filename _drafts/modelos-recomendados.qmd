@@ -1,0 +1,73 @@
+# Modelos que recomendo {#sec-modelos-recomendados}
+
+<!-- Rascunho 1, a partir da entrevista 2 (_drafts/entrevistas/02-modelos.md).
+     Preços conferidos em fontes de terceiros em 22/10/2026; conferir nas
+     páginas oficiais antes do lançamento. -->
+
+Se você programa em R e vai pagar por uma única ferramenta, assine o Claude Pro e use o Claude Code. Quando os limites começarem a atrapalhar, acrescente o ChatGPT Plus antes de pensar num plano mais caro. Se puder gastar mais, o melhor arranjo que conheço é o Claude Max com o ChatGPT Plus. O resto do capítulo explica essas escolhas, faixa por faixa, e diz qual modelo uso para cada tarefa.
+
+## Quanto custa em reais
+
+Nenhuma dessas empresas ajusta preços para o Brasil. Você paga em dólar, com o câmbio do cartão e 3,5% de IOF. A tabela usa a cotação de {{< meta cambio.data >}}; o valor na fatura costuma sair um pouco acima, por causa do spread do banco.
+
+| Plano | US$ por mês | R$ por mês |
+|---|---:|---:|
+| ChatGPT Go | 8 | {{< brl 8 >}} |
+| OpenCode Go | 10 | {{< brl 10 >}} |
+| Claude Pro ou ChatGPT Plus | 20 | {{< brl 20 >}} |
+| Claude Max 5x ou ChatGPT Pro | 100 | {{< brl 100 >}} |
+| Claude Max 20x | 200 | {{< brl 200 >}} |
+
+Para ter uma referência, uma única assinatura de US$ 20 custa mais do que quase qualquer serviço de streaming. É um gasto que precisa se pagar em horas de trabalho poupadas.
+
+## Quatro faixas de gasto
+
+### Grátis: para aprender
+
+Sem pagar nada, dá para aprender como um agente trabalha, mas não dá para trabalhar todo dia com ele. Minha sugestão é instalar o app do Codex, que tem uma cota gratuita, e testar os modelos gratuitos do OpenCode. O objetivo aqui é entender o fluxo: o agente lê seus arquivos, propõe mudanças, roda código e erra. Fuja da tentação de ficar só no chat do navegador, copiando e colando código. Esse era o conselho que eu dava em 2025, e ele envelheceu mal.
+
+### Uma assinatura: Claude Pro
+
+Para quem programa em R, o Claude Pro é o melhor primeiro gasto. O Claude Code, que vem incluído, é o agente que a comunidade de R mais usa, e a própria Posit costuma priorizar os modelos da Anthropic. Com o Opus 5.5 em esforço médio, a cota do Pro rende mais do que rendia com os modelos anteriores.
+
+O ChatGPT Plus é a alternativa para quem quer, além de programar, um assistente geral para pesquisa e texto, ou para quem esbarra demais nos limites do Claude. As duas assinaturas custam o mesmo, e ambas incluem um agente de programação: o Claude Code de um lado, o Codex do outro.
+
+### Duas assinaturas: Claude Pro e ChatGPT Plus
+
+Quando os limites do Claude Pro começarem a travar o seu dia, acrescente o ChatGPT Plus em vez de subir para o Claude Max. São US$ 40 contra US$ 100, e você ganha algo que nenhum plano maior oferece: um segundo modelo, de outra empresa, que pensa diferente. Uso o GPT para revisar o código que o Claude escreveu, e ele encontra erros que o Claude não vê. Quando a cota de um acaba, sigo com o outro. Este é o meu arranjo atual.
+
+### Uso pesado: Claude Max e ChatGPT Plus
+
+Se a IA virou parte central do seu trabalho e você esgota as duas assinaturas toda semana, troque o Claude Pro pelo Claude Max e mantenha o ChatGPT Plus. O Max 5x custa US$ 100 e dá cinco vezes a cota do Pro; o Max 20x custa US$ 200. Mantenha o Plus mesmo assim: a segunda opinião continua valendo mais do que a cota extra.
+
+## Que modelo usar para cada tarefa
+
+O Opus 5.5 é o meu modelo principal. Ele programa, planeja o trabalho e coordena outros agentes. Os demais modelos entram em tarefas específicas.
+
+| Tarefa | Modelo |
+|---|---|
+| Programar, planejar, orquestrar e uso geral | Claude Opus 5.5 |
+| Programar, como alternativa | GPT 6 Sol |
+| Revisar pull requests importantes | GPT 6.1 Sol |
+| Texto, pesquisa e tarefas repetitivas | GPT Luna ou GLM 5.3 Flash |
+| Controlar o computador | Claude Sonnet 5.5 |
+
+Quem tem só o ChatGPT Plus deve programar com o GPT 5.6 Sol. Os modelos da família GPT 6 consomem a cota do Plus rápido demais para o uso diário.
+
+O GPT Luna e o GLM 5.3 Flash cumprem o mesmo papel: reescrever um texto, escrever a descrição de um pull request, organizar pastas, procurar arquivos, apagar branches antigos. São tarefas em que um modelo grande desperdiça cota.
+
+## Nível de esforço
+
+A maior parte dos modelos deixa você escolher quanto o modelo "pensa" antes de responder. Comece no esforço médio e só suba quando o modelo errar ou o problema for difícil de fato. O esforço alto serve para problemas complicados; o máximo, para tarefas pontuais. Quanto maior o esforço, mais rápido a cota acaba, e a diferença na resposta muitas vezes não aparece.
+
+## Complementos
+
+O OpenCode Go custa US$ 10 e dá acesso a vários modelos abertos, como o GLM e o DeepSeek. Não o recomendo como única assinatura para quem programa em R, mas ele funciona bem como complemento: assume as tarefas repetitivas e poupa a cota das assinaturas principais. E tem outra vantagem: é a forma mais barata de conhecer modelos novos. Parte da graça de trabalhar com IA hoje é experimentar, e o OpenCode Go torna isso barato.
+
+## O que testei e o que não testei
+
+Esta lista muda a cada poucos meses.
+
+- **Testei e uso:** GLM 5.3 Flash, para tarefas repetitivas, e o Muse Spark, de vez em quando. O Muse Spark me surpreendeu até em código R, embora tenha rodado num repositório bem organizado e com as minhas skills.
+- **Testei e não fiquei:** DeepSeek V4 Flash, que me pareceu bom, mas usei pouco; Kimi, capaz, mas caro demais; LongCat e MiMo.
+- **Não testei:** Gemini e Grok. Não tenho opinião formada sobre eles.
