@@ -24,7 +24,6 @@ Ordem de escrita: setup, modelos recomendados, história, interfaces/contexto/MC
 
 ## Pendências
 
-- Atualizar o câmbio em `_quarto.yml` (5,50 é provisório).
 - Capa: prompt em `_drafts/capa-prompt.md`.
 
 ## Fontes e posições para os capítulos 2 e 13
@@ -49,5 +48,5 @@ Ordem de escrita: setup, modelos recomendados, história, interfaces/contexto/MC
 
 - No tutorial `ekio-academy/tutorials/tutorial-r/fundamentals/2025-09-intro-r-1`, trocar a seção de IA por um parágrafo com link para o livro.
 - Trocar o tile "Em preparação" de `livros.qmd` por um link para o livro e a capa definitiva.
-- Atualizar o câmbio em `_quarto.yml`.
+- Atualizar o câmbio em `_quarto.yml` (hoje: PTAX de venda de 21/10/2026, R$ 5,0277).
 - Incidente do `realestatebr` (provavelmente Claude 3.5 Sonnet): o Vinicius vai levantar os detalhes para o capítulo de riscos.

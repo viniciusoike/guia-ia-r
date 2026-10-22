@@ -66,7 +66,7 @@ shortcodes:
 # Part II prices. Update the rate and date together; {{< brl 20 >}}
 # converts US$ 20 to reais with IOF.
 cambio:
-  usd-brl: 5.50
+  usd-brl: 5.03
   iof: 0.035
   data: "21/10/2026"
 
