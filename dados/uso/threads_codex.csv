@@ -1,0 +1,62 @@
+mes,interface,subagente,modelo,n_threads,tokens
+2026-05-01,Outros,FALSE,desconhecido,59,815735
+2026-07-01,Outros,FALSE,gpt-5.5,1,2591495
+2026-07-01,Outros,FALSE,gpt-5.6-terra,5,1045809
+2026-08-01,Terminal,FALSE,gpt-5.6-sol,3,23068935
+2026-08-01,Outros,FALSE,gpt-5.6-sol,25,105653377
+2026-08-01,Outros,FALSE,gpt-5.6-luna,27,98568151
+2026-08-01,Outros,FALSE,gpt-5.6-terra,3,15016633
+2026-08-01,Terminal,FALSE,gpt-5.6-luna,14,59395905
+2026-08-01,Terminal,FALSE,gpt-5.6-terra,2,5410348
+2026-09-01,Outros,FALSE,gpt-5.6-luna,40,125643773
+2026-09-01,Outros,FALSE,gpt-5.6-sol,22,38968575
+2026-09-01,Terminal,FALSE,gpt-5.6-luna,18,58189370
+2026-09-01,Outros,FALSE,gpt-6-astra,14,55827218
+2026-09-01,Terminal,FALSE,gpt-6-astra,1,4109825
+2026-09-01,Terminal,FALSE,gpt-5.6-terra,2,3816692
+2026-09-01,T3 Code,FALSE,gpt-5.6-sol,27,192350132
+2026-09-01,T3 Code,FALSE,gpt-6-astra,3,10860773
+2026-09-01,T3 Code,FALSE,gpt-5.6-luna,19,76457295
+2026-09-01,Terminal,FALSE,gpt-5.6-sol,3,12836453
+2026-09-01,T3 Code,FALSE,gpt-5.6-terra,1,1909092
+2026-09-01,App do Codex,FALSE,gpt-5.6-sol,13,93949164
+2026-09-01,App do Codex,FALSE,gpt-6-astra,3,12811029
+2026-09-01,App do Codex,FALSE,gpt-5.6-luna,4,20690624
+2026-09-01,App do Codex,TRUE,codex-auto-review,20,10097985
+2026-09-01,App do Codex,FALSE,gpt-6-luna,2,583234
+2026-09-01,T3 Code,FALSE,gpt-6-luna,9,11880374
+2026-09-01,T3 Code,FALSE,gpt-6-sol,18,108677500
+2026-09-01,App do Codex,FALSE,gpt-6-sol,4,1544565
+2026-09-01,T3 Code,TRUE,gpt-6-astra,12,7706563
+2026-09-01,Terminal,FALSE,gpt-6-sol,1,41817451
+2026-09-01,Terminal,TRUE,gpt-6-astra,4,3268665
+2026-09-01,Terminal,TRUE,gpt-6-sol,2,2445975
+2026-09-01,Terminal,FALSE,desconhecido,2,0
+2026-09-01,App do Codex,FALSE,desconhecido,1,0
+2026-09-01,T3 Code,TRUE,gpt-6-sol,10,21287795
+2026-09-01,Outros,FALSE,desconhecido,1,0
+2026-10-01,App do Codex,FALSE,gpt-6.1-sol,6,34758951
+2026-10-01,App do Codex,TRUE,gpt-6-astra,24,18555773
+2026-10-01,App do Codex,TRUE,codex-auto-review,66,21094913
+2026-10-01,App do Codex,FALSE,gpt-5.6-sol,12,93726436
+2026-10-01,App do Codex,TRUE,gpt-6-sol,20,31227592
+2026-10-01,App do Codex,FALSE,gpt-6-luna,15,100052268
+2026-10-01,App do Codex,FALSE,gpt-6-astra,9,39715115
+2026-10-01,T3 Code,FALSE,gpt-6-luna,25,132110537
+2026-10-01,T3 Code,TRUE,gpt-6-sol,34,69399429
+2026-10-01,T3 Code,FALSE,gpt-6-sol,15,65251531
+2026-10-01,T3 Code,FALSE,gpt-5.6-sol,2,16528475
+2026-10-01,T3 Code,TRUE,gpt-6-astra,21,16406172
+2026-10-01,Terminal,FALSE,gpt-6.1-sol,1,0
+2026-10-01,Terminal,FALSE,gpt-6-luna,1,182102
+2026-10-01,T3 Code,FALSE,gpt-6.1-sol,25,73312817
+2026-10-01,Terminal,FALSE,gpt-5.6-sol,1,0
+2026-10-01,App do Codex,FALSE,gpt-5.6-luna,6,3884114
+2026-10-01,T3 Code,FALSE,gpt-5.6-luna,2,0
+2026-10-01,T3 Code,FALSE,gpt-6-astra,4,7710523
+2026-10-01,Outros,FALSE,gpt-6-luna,1,0
+2026-10-01,App do Codex,FALSE,gpt-6-sol,23,165013156
+2026-10-01,Terminal,FALSE,desconhecido,2,0
+2026-10-01,Terminal,FALSE,gpt-6-sol,1,0
+2026-10-01,Outros,FALSE,gpt-6-astra,2,0
+2026-10-01,App do Codex,FALSE,desconhecido,1,0

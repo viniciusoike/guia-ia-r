@@ -25,5 +25,18 @@ Ordem de escrita: setup, modelos recomendados, história, interfaces/contexto/MC
 ## Pendências
 
 - Atualizar o câmbio em `_quarto.yml` (5,50 é provisório).
-- Texto antigo sobre Claude Code, Codeium/Windsurf, Supermaven, Copilot, Positron e Posit Assistant: não encontrado; reconstruir na entrevista do capítulo de história.
 - Capa: prompt em `_drafts/capa-prompt.md`.
+
+## Fontes e posições para os capítulos 2 e 13
+
+- Textos antigos (set/2025 e jul/2025) em `_drafts/fontes/textos-antigos-2025.md`. Servem de base histórica; não precisam de citação direta.
+- Hoje não uso Copilot nem Windsurf. Usei o Supermaven por muito tempo; hoje uso pouco.
+- O espírito do conselho de 2025 continua valendo: começar pequeno, não pagar por muitas ferramentas e construir confiança na IA dentro do próprio fluxo de trabalho.
+- O que mudou: não recomendo mais começar pelo Claude gratuito. O ponto de partida é uma assinatura, ChatGPT Plus ou Claude Pro, usada com o Codex ou o Claude Code.
+- Testei GLM 5.3, Muse Spark, DeepSeek V4, Kimi K3 e outros via OpenCode (set/2026); entram como "testei", não como "não testei".
+
+## Dados de uso
+
+- Scripts em `_drafts/uso/` (testes em `test-funcoes.R`). Rodar `01-importar.R` e depois `02-graficos.R`.
+- Só agregados vão para `dados/uso/`; os registros brutos ficam na máquina.
+- Logs do Claude Code agora ficam 365 dias (`cleanupPeriodDays`); antes de 22/09/2026 só há dados do T3 e do Codex.

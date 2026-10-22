@@ -46,6 +46,18 @@ Os servidores MCP ligam o agente a ferramentas externas. Os que uso de verdade s
 - Netlify, para publicar sites. Este livro foi publicado assim.
 - Figma e Google (Drive, Gmail, Agenda), pelos conectores do claude.ai. [? Usa de fato?]
 
+## Meu uso em números
+
+Os agentes guardam registros locais de cada conversa: modelo, interface e tokens consumidos. Juntei esses registros com um script em R para ver como eu realmente uso IA, e não como eu acho que uso.
+
+![](../imagens/uso-modelos-t3.png){fig-alt="Gráfico de barras empilhadas com o número de threads abertas no T3 Code por mês de 2026, por fornecedor do modelo. Até julho quase todas usam modelos da Anthropic. A OpenAI aparece em agosto. Em setembro o total passa de 480 threads, cerca de um terço com modelos abertos."}
+
+O Claude é a base desde o começo. Os modelos da OpenAI entraram em agosto, e setembro foi o mês em que testei modelos abertos, como GLM, DeepSeek e Kimi, pelo OpenCode. Quase nenhum deles ficou. [? Por que os modelos abertos não ficaram?]
+
+![](../imagens/uso-custo-outubro.png){fig-alt="Gráfico de barras empilhadas com o custo diário equivalente em API do Claude Code e do Codex de 1 a 21 de outubro de 2026. A maior parte do custo vem do Claude Code; alguns dias passam de US$ 75."}
+
+Em três semanas de outubro, o mesmo uso pago pela API custaria perto de US$ 900. A maior parte desse valor vem de tokens lidos do cache: o agente relê o contexto da conversa a cada passo, e o cache é o que torna isso barato. [? Comparar com o que você paga de assinatura.]
+
 ## Quanto custa
 
 [? Quais assinaturas você paga hoje (Claude Max 5x ou 20x? ChatGPT Plus ou Pro?) e quanto isso dá por mês? Paga alguma API à parte?]

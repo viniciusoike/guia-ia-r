@@ -1,0 +1,11 @@
+modelo,preco_input,preco_cache_write,preco_cache_write_1h,preco_cache_read,preco_output
+claude-haiku-5-5,1e-7,1.25e-7,2e-7,1e-8,5e-7
+claude-haiku-4-5-20251001,1e-6,1.25e-6,2e-6,1e-7,5e-6
+claude-opus-5-5,4e-6,5e-6,8e-6,2e-7,2e-5
+claude-sonnet-5-5,2e-6,2.5e-6,4e-6,1e-7,1e-5
+claude-opus-5,5e-6,6.25e-6,1e-5,5e-7,2.5e-5
+gpt-6-astra,1e-5,1.25e-5,1.25e-5,1e-6,5e-5
+gpt-6-luna,1e-7,1.25e-7,1.25e-7,1e-8,5e-7
+gpt-6.1-sol,2e-6,2.5e-6,2.5e-6,1e-7,1e-5
+gpt-6-sol,2e-6,2.5e-6,2.5e-6,2e-7,1e-5
+gpt-5.6-sol,4e-6,5e-6,5e-6,4e-7,2e-5
