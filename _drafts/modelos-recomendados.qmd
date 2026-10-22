@@ -18,7 +18,7 @@ Nenhuma dessas empresas ajusta preços para o Brasil. Você paga em dólar, com 
 | Claude Max 5x ou ChatGPT Pro | 100 | {{< brl 100 >}} |
 | Claude Max 20x | 200 | {{< brl 200 >}} |
 
-Para ter uma referência, uma única assinatura de US$ 20 custa mais do que quase qualquer serviço de streaming. É um gasto que precisa se pagar em horas de trabalho poupadas.
+A IA é uma exceção à regra. Quase todos os serviços por assinatura que usamos no Brasil, de streaming a pacotes de escritório, cobram preços regionais. Por isso, uma única assinatura de US$ 20 custa mais do que quase qualquer serviço de streaming, e é um gasto que precisa se pagar em horas de trabalho poupadas.
 
 ## Quatro faixas de gasto
 
@@ -34,7 +34,7 @@ O ChatGPT Plus é a alternativa para quem quer, além de programar, um assistent
 
 ### Duas assinaturas: Claude Pro e ChatGPT Plus
 
-Quando os limites do Claude Pro começarem a travar o seu dia, acrescente o ChatGPT Plus em vez de subir para o Claude Max. São US$ 40 contra US$ 100, e você ganha algo que nenhum plano maior oferece: um segundo modelo, de outra empresa, que pensa diferente. Uso o GPT para revisar o código que o Claude escreveu, e ele encontra erros que o Claude não vê. Quando a cota de um acaba, sigo com o outro. Este é o meu arranjo atual.
+Quando os limites do Claude Pro começarem a travar o seu dia, acrescente o ChatGPT Plus em vez de subir para o Claude Max. São US$ 40 contra US$ 100, e você ganha algo que nenhum plano maior oferece: um segundo modelo, de outra empresa, que pensa diferente. Uso o GPT 6.1 Sol para revisar os pull requests mais importantes, e ele é um ótimo revisor. Quando a cota de um acaba, sigo com o outro. Este é o meu arranjo atual.
 
 ### Uso pesado: Claude Max e ChatGPT Plus
 

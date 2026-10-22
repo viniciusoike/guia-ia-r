@@ -10,3 +10,9 @@ Perguntas com a recomendação proposta e a resposta do Vinicius.
 6. Tabela de modelo por tarefa. **Sim. Opus 5.5 também para uso geral, planejamento e orquestração; é o principal programador. Luna e GLM 5.3 Flash são intercambiáveis.**
 7. Listas "testei e não fiquei" / "não testei" (Gemini, Grok). **Sim.**
 8. Esforço médio como padrão. **Sim.**
+
+## Rodada 2
+
+- Faixa de uso pesado com Max 5x + Plus. **Sim.**
+- "O GPT encontra erros que o Claude não vê." **Não dá para sustentar; mas o 6.1 Sol é um ótimo revisor.**
+- Comparação com streaming. **Manter: quase todos os outros serviços por assinatura têm preço regional; a IA é exceção.**
