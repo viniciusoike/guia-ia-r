@@ -44,3 +44,10 @@ Ordem de escrita: setup, modelos recomendados, história, interfaces/contexto/MC
 ## Assinaturas (out/2026)
 
 - Pago ChatGPT Plus e Claude Pro. O OpenCode Go está pausado, com volta prevista.
+
+## Tarefas do lançamento
+
+- No tutorial `ekio-academy/tutorials/tutorial-r/fundamentals/2025-09-intro-r-1`, trocar a seção de IA por um parágrafo com link para o livro.
+- Trocar o tile "Em preparação" de `livros.qmd` por um link para o livro e a capa definitiva.
+- Atualizar o câmbio em `_quarto.yml`.
+- Incidente do `realestatebr` (provavelmente Claude 3.5 Sonnet): o Vinicius vai levantar os detalhes para o capítulo de riscos.

@@ -57,3 +57,29 @@ I will resubscribe to opencode in the near future.
 ## Q8. Um dia típico
 
 In broad lines, I use T3 Code for work that is already consolidated and where I want to act more as a Product Manager or Senior Dev. I use Positron + Claude for reports, writing, data visualization, important deliverables. For use cases where it's easier for me to tweak and to take control rather than to delegate
+
+# Rodada 2 (22/10/2026)
+
+## Incidente do realestatebr
+
+Maybe 3.5 Sonnet. I will find more details on it so we can use the case in the book.
+
+## O "olá" de manhã
+
+Yes (confirma: começar a janela de cinco horas cedo).
+
+## Skills e MCPs
+
+The Posit skills + btw are very nice. Outside of grill-me, caveman, and some of the 'code review' skills I feel like my personal skills are the ones that make the most difference. r-coding, writing, and data-viz skills. I don't think my skills are masterfully written but they helped change AI from a generic helper to something that understood my needs and what I valued. skills (and specially writing my own skills) were a major game-changer, maybe even more than mcp. Netlify and Playwright appear often. I'm starting to use the google ones but not much yet
+
+## Autocomplete
+
+For one I started coding less. Second, the suggestions competed with autocomplete and were sometimes very distracting. It did help once in a while but it also made a lot of bad suggestions. For me, autocomplete wants you to write a very long and repetitive code, which typically is bad code.
+
+## ChatGPT Edu
+
+Yes, a generic sentence is fine.
+
+## Tutorial da Academy
+
+Yes: no lançamento, a seção de IA do tutorial vira um parágrafo com link para o livro.

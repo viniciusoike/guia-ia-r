@@ -1,7 +1,7 @@
 # Meu setup atual {#sec-setup}
 
-<!-- Rascunho 2, a partir da entrevista 1 (_drafts/entrevistas/01-setup.md)
-     e dos dados de uso. Marcações [?] pedem resposta na próxima rodada. -->
+<!-- Rascunho 3, a partir das duas rodadas da entrevista 1
+     (_drafts/entrevistas/01-setup.md) e dos dados de uso. -->
 
 Eu trabalho com IA de dois jeitos. No primeiro, eu delego: desenho uma tarefa, entrego para um agente e reviso só o resultado final, como um gerente de projeto revisa o trabalho de um analista. No segundo, eu controlo: escrevo, testo e ajusto o código com o agente ao lado, chamado quando preciso. Cada jeito tem a sua ferramenta. Delego no T3 Code e controlo no Positron. O resto deste capítulo descreve as duas, os modelos que uso em cada uma e quanto isso custa.
 
@@ -17,7 +17,7 @@ O Positron recebe o trabalho em que eu quero a mão no volante: relatórios, tex
 
 O Claude é a minha base, hoje com o Opus 5.5 em esforço médio. Comecei com ele porque já achava o Claude melhor em R do que o ChatGPT, e essa parecia ser a opinião da comunidade. Os engenheiros da Posit que eu acompanho usavam o Claude, o Hadley Wickham parece preferi-lo, e o Posit Assistant foi lançado só com modelos da Anthropic.
 
-O caminho até aqui não foi tranquilo. Durante muito tempo, o Claude era mais rápido do que eu, mas o código era fraco e ele construía demais. Eu gastava tempo limpando o que ele deixava: funções que ninguém pediu, documentação inchada, exemplos desnecessários. Oscilei entre microgerenciar o agente, o que parecia perda de tempo, e confiar demais, até me queimar. Numa dessas, um modelo da Anthropic quase apagou um pacote inteiro, o `realestatebr`. [? Que modelo era e quando foi? "Opus 3.5" não existiu; talvez Claude 3.5 Sonnet ou Opus 4. O que você mudou depois disso?]
+O caminho até aqui não foi tranquilo. Durante muito tempo, o Claude era mais rápido do que eu, mas o código era fraco e ele construía demais. Eu gastava tempo limpando o que ele deixava: funções que ninguém pediu, documentação inchada, exemplos desnecessários. Oscilei entre microgerenciar o agente, o que parecia perda de tempo, e confiar demais, até me queimar. Numa dessas, o Claude quase apagou um pacote inteiro, o `realestatebr`. O @sec-riscos conta o episódio e o que mudei depois dele.
 
 O Opus 5.5 mudou essa relação. Ele me entende bem e programa bem de verdade. Pela primeira vez, passei a tratar a IA como um colega de trabalho, e não como um assistente que precisa de supervisão linha a linha. É essa mudança que torna possível o modo "delegar" da seção anterior.
 
@@ -37,7 +37,11 @@ Os dois agentes leem o mesmo arquivo de instruções globais, `~/.agents/AGENTS.
 
 ## Skills e MCPs
 
-[? Esta seção ainda depende da próxima rodada da entrevista: quais skills e MCPs você usa de fato.]
+As skills fizeram mais diferença no meu trabalho do que os MCPs. E, entre as skills, as que mais pesam são as que eu mesmo escrevi: uma para código R, outra para escrita e outra para revisar gráficos. Não são textos primorosos. Mesmo assim, transformaram a IA de um ajudante genérico em algo que entende o que eu preciso e o que eu valorizo. Escrever as próprias skills foi, para mim, uma das maiores viradas no uso de IA.
+
+Das skills de terceiros, uso com frequência as da Posit, para Quarto, pacotes R e Shiny. Também uso o `grill-me`, que me entrevista antes de começar um projeto (este livro começou assim), algumas skills de revisão de código e o Caveman, que encurta as respostas do agente.
+
+Os MCPs que uso de verdade são poucos. O `btw` liga o agente à minha sessão de R, para que ele leia data frames, consulte a ajuda de funções e rode código no mesmo ambiente em que estou trabalhando. O Playwright deixa o agente abrir o navegador, testar um site e tirar screenshots. O MCP do Netlify publica sites; este livro foi publicado assim. Comecei a usar os conectores do Google (Drive, Gmail e Agenda), mas ainda pouco.
 
 ## Meu uso em números
 
@@ -57,13 +61,15 @@ Pago duas assinaturas de US$ 20: Claude Pro e ChatGPT Plus. Quase sempre esgoto 
 
 Administrar limites ficou mais fácil nos últimos meses. Em parte, porque a Anthropic e a OpenAI passaram a renovar as cotas com mais generosidade. Em parte, porque o Opus 5.5 em esforço médio gasta pouco para o que entrega. Mesmo assim, uso alguns truques simples:
 
-- Logo cedo, mando um "olá" para o Haiku e para o Luna. A janela de limite de cinco horas começa a contar na primeira mensagem; começar cedo faz a cota renovar no meio do meu dia de trabalho. [? Confirmar se é esse o motivo.]
+- Logo cedo, mando um "olá" para o Haiku e para o Luna. A janela de limite de cinco horas começa a contar na primeira mensagem; começar cedo faz a cota renovar no meio do meu dia de trabalho.
 - Não deixo uma conversa passar de 200 mil a 250 mil tokens de contexto. Quando chego perto, compacto a conversa ou começo outra.
 - Mantenho o cache aquecido, sem deixar uma conversa parada por muito tempo antes de continuar.
 - Delego tarefas simples para modelos simples.
 
-Também tenho uma assinatura institucional do ChatGPT pelo Insper, que só funciona no app do Codex. Uso-a para o trabalho do Insper, mas a cota acaba rápido: mais de uma vez gastei o limite de cinco horas numa única tarefa. [? Entra no livro ou fica de fora?]
+Se a sua universidade oferece o ChatGPT Edu, vale usar. Só não conte com ele para o trabalho pesado: a cota costuma acabar rápido, às vezes numa única tarefa longa.
 
 ## O que eu não uso mais
 
-Não uso mais o GitHub Copilot nem o Windsurf, que recomendei em 2025 para quem estava começando. Usei o Supermaven por muito tempo como autocomplete, mas hoje quase não o uso. [? Por que o autocomplete perdeu espaço? Minha hipótese: quando o agente escreve a maior parte do código, sugerir a próxima linha deixa de importar.]
+Não uso mais o GitHub Copilot nem o Windsurf, que recomendei em 2025 para quem estava começando. Usei o Supermaven por muito tempo como autocomplete, mas hoje quase não o uso.
+
+O autocomplete perdeu espaço por dois motivos. O primeiro é simples: passei a escrever menos código. O segundo é que as sugestões disputavam atenção com o autocompletar do próprio editor e muitas vezes atrapalhavam mais do que ajudavam. Uma ou outra sugestão acertava, mas muitas eram ruins. E o autocomplete empurra para um certo tipo de código: longo e repetitivo, que costuma ser código ruim. Quando a ferramenta facilita repetir, a gente deixa de abstrair.
