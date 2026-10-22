@@ -40,3 +40,7 @@ Ordem de escrita: setup, modelos recomendados, história, interfaces/contexto/MC
 - Scripts em `_drafts/uso/` (testes em `test-funcoes.R`). Rodar `01-importar.R` e depois `02-graficos.R`.
 - Só agregados vão para `dados/uso/`; os registros brutos ficam na máquina.
 - Logs do Claude Code agora ficam 365 dias (`cleanupPeriodDays`); antes de 22/09/2026 só há dados do T3 e do Codex.
+
+## Assinaturas (out/2026)
+
+- Pago ChatGPT Plus e Claude Pro. O OpenCode Go está pausado, com volta prevista.
