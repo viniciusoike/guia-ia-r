@@ -1,0 +1,11 @@
+# Served at academy.ekio.io/livros/ia-para-r/ through a proxy rewrite in
+# the ekio-academy netlify.toml. The book runs no R code.
+[build]
+  command = "mkdir -p /tmp/quarto && curl -sL https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.37/quarto-1.9.37-linux-amd64.tar.gz | tar -xz -C /tmp/quarto && /tmp/quarto/quarto-1.9.37/bin/quarto render"
+  publish = "_book"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

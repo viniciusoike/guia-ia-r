@@ -1,0 +1,5 @@
+# Skills e plugins {#sec-skills}
+
+::: {.callout-note appearance="simple"}
+Capítulo em desenvolvimento.
+:::

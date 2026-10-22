@@ -1,0 +1,5 @@
+# Contexto: instruções, regras e memória {#sec-contexto}
+
+::: {.callout-note appearance="simple"}
+Capítulo em desenvolvimento.
+:::

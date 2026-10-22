@@ -1,0 +1,5 @@
+# Configurações para copiar {#sec-configuracoes}
+
+::: {.callout-note appearance="simple"}
+Capítulo em desenvolvimento.
+:::

@@ -1,0 +1,5 @@
+# MCP: conectando o modelo ao mundo {#sec-mcp}
+
+::: {.callout-note appearance="simple"}
+Capítulo em desenvolvimento.
+:::

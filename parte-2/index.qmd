@@ -1,0 +1,7 @@
+# Na prática {.unnumbered}
+
+Atualizado em {{< meta parte2-atualizado >}}.
+
+Esta parte reflete o que eu uso e recomendo hoje. Ela muda a cada poucos meses; o [histórico de mudanças](../apendices/changelog.qmd) registra o que mudou e quando.
+
+Os preços aparecem em dólar e em reais, com câmbio de {{< meta cambio.data >}} e IOF de compras internacionais no cartão. Uma assinatura de US$ 20 por mês sai por cerca de {{< brl 20 >}}.

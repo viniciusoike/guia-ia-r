@@ -1,0 +1,5 @@
+# Histórico de mudanças {#sec-changelog}
+
+## Outubro de 2026
+
+- Criada a estrutura do livro.

@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "name": "Material Palenight R",
+    "revision": 1,
+    "license": "MIT",
+    "copyright": [
+      "EKIO Academy (https://academy.ekio.io)",
+      "Based on Material Palenight by Olaolu Olawuyi"
+    ]
+  },
+  "editor-colors": {
+    "BackgroundColor": "#292D3E",
+    "CodeFolding": "#252838",
+    "BracketMatching": "#717CB470",
+    "CurrentLine": "#2f3345",
+    "IconBorder": "#292D3E",
+    "IndentationLine": "#3d435d",
+    "LineNumbers": "#676E95",
+    "CurrentLineNumber": "#A6ACCD",
+    "MarkBookmark": "#82AAFF",
+    "MarkBreakpointActive": "#F07178",
+    "MarkBreakpointReached": "#FFCB6B",
+    "MarkBreakpointDisabled": "#676E95",
+    "MarkExecution": "#89DDFF",
+    "MarkWarning": "#FFCB6B",
+    "MarkError": "#F07178",
+    "ModifiedLines": "#C3E88D",
+    "ReplaceHighlight": "#FFCB6B",
+    "SavedLines": "#C3E88D",
+    "SearchHighlight": "#717CB470",
+    "Selection": "#717CB470",
+    "Separator": "#3d435d",
+    "SpellChecking": "#F07178",
+    "TabMarker": "#676E95",
+    "TemplateBackground": "#252838",
+    "TemplatePlaceholder": "#FFCB6B",
+    "TemplateFocusedPlaceholder": "#F78C6C",
+    "TemplateReadOnlyPlaceholder": "#676E95",
+    "TextSelection": "#717CB470",
+    "WordWrapMarker": "#3d435d"
+  },
+  "text-styles": {
+    "Normal": {
+      "text-color": "#A6ACCD",
+      "selected-text-color": "#FAFBFF"
+    },
+    "Keyword": {
+      "text-color": "#C792EA",
+      "selected-text-color": "#C792EA",
+      "bold": true
+    },
+    "Function": {
+      "text-color": "#82AAFF",
+      "selected-text-color": "#82AAFF"
+    },
+    "Variable": {
+      "text-color": "#A6ACCD",
+      "selected-text-color": "#FAFBFF"
+    },
+    "ControlFlow": {
+      "text-color": "#C792EA",
+      "selected-text-color": "#C792EA",
+      "bold": true
+    },
+    "Operator": {
+      "text-color": "#89DDFF",
+      "selected-text-color": "#89DDFF"
+    },
+    "BuiltIn": {
+      "text-color": "#FFCB6B",
+      "selected-text-color": "#FFCB6B"
+    },
+    "Extension": {
+      "text-color": "#82AAFF",
+      "selected-text-color": "#82AAFF"
+    },
+    "Preprocessor": {
+      "text-color": "#C792EA",
+      "selected-text-color": "#C792EA"
+    },
+    "Attribute": {
+      "text-color": "#A6ACCD",
+      "selected-text-color": "#FAFBFF"
+    },
+    "Char": {
+      "text-color": "#C3E88D",
+      "selected-text-color": "#C3E88D"
+    },
+    "SpecialChar": {
+      "text-color": "#89DDFF",
+      "selected-text-color": "#89DDFF"
+    },
+    "String": {
+      "text-color": "#C3E88D",
+      "selected-text-color": "#C3E88D"
+    },
+    "VerbatimString": {
+      "text-color": "#C3E88D",
+      "selected-text-color": "#C3E88D"
+    },
+    "SpecialString": {
+      "text-color": "#C3E88D",
+      "selected-text-color": "#C3E88D"
+    },
+    "Import": {
+      "text-color": "#FFCB6B",
+      "selected-text-color": "#FFCB6B"
+    },
+    "DataType": {
+      "text-color": "#F07178",
+      "selected-text-color": "#F07178"
+    },
+    "DecVal": {
+      "text-color": "#F78C6C",
+      "selected-text-color": "#F78C6C"
+    },
+    "BaseN": {
+      "text-color": "#F78C6C",
+      "selected-text-color": "#F78C6C"
+    },
+    "Float": {
+      "text-color": "#F78C6C",
+      "selected-text-color": "#F78C6C"
+    },
+    "Constant": {
+      "text-color": "#89DDFF",
+      "selected-text-color": "#89DDFF"
+    },
+    "Comment": {
+      "text-color": "#676E95",
+      "selected-text-color": "#676E95",
+      "italic": true
+    },
+    "Documentation": {
+      "text-color": "#676E95",
+      "selected-text-color": "#676E95",
+      "italic": true
+    },
+    "Annotation": {
+      "text-color": "#676E95",
+      "selected-text-color": "#676E95"
+    },
+    "CommentVar": {
+      "text-color": "#676E95",
+      "selected-text-color": "#676E95",
+      "italic": true
+    },
+    "RegionMarker": {
+      "text-color": "#676E95",
+      "selected-text-color": "#676E95",
+      "background-color": "#252838"
+    },
+    "Information": {
+      "text-color": "#82AAFF",
+      "selected-text-color": "#82AAFF"
+    },
+    "Warning": {
+      "text-color": "#FFCB6B",
+      "selected-text-color": "#FFCB6B"
+    },
+    "Alert": {
+      "text-color": "#F07178",
+      "selected-text-color": "#F07178",
+      "bold": true,
+      "background-color": "#252838"
+    },
+    "Error": {
+      "text-color": "#F07178",
+      "selected-text-color": "#F07178",
+      "bold": true,
+      "underline": true
+    },
+    "Others": {
+      "text-color": "#89DDFF",
+      "selected-text-color": "#89DDFF"
+    }
+  },
+  "custom-styles": {
+    "R": {
+      "Pipe": {
+        "text-color": "#89DDFF",
+        "selected-text-color": "#89DDFF",
+        "bold": true
+      },
+      "Assignment": {
+        "text-color": "#89DDFF",
+        "selected-text-color": "#89DDFF"
+      },
+      "Dollar": {
+        "text-color": "#89DDFF",
+        "selected-text-color": "#89DDFF"
+      },
+      "Package": {
+        "text-color": "#FFCB6B",
+        "selected-text-color": "#FFCB6B"
+      },
+      "SpecialValue": {
+        "text-color": "#FFCB6B",
+        "selected-text-color": "#FFCB6B",
+        "bold": true
+      },
+      "LogicalValue": {
+        "text-color": "#C792EA",
+        "selected-text-color": "#C792EA",
+        "bold": true
+      }
+    }
+  }
+}

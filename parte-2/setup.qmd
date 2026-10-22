@@ -1,0 +1,5 @@
+# Meu setup atual {#sec-setup}
+
+::: {.callout-note appearance="simple"}
+Capítulo em desenvolvimento.
+:::

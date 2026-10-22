@@ -1,0 +1,5 @@
+# Modelos e fornecedores {#sec-modelos}
+
+::: {.callout-note appearance="simple"}
+Capítulo em desenvolvimento.
+:::

@@ -1,0 +1,5 @@
+# LLMs dentro do R {#sec-llms-no-r}
+
+::: {.callout-note appearance="simple"}
+Capítulo em desenvolvimento.
+:::

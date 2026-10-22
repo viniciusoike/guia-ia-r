@@ -1,0 +1,91 @@
+project:
+  type: book
+  output-dir: _book
+  render:
+    - "*.qmd"
+    - "!_drafts/"
+
+book:
+  title: "Guia de Sobrevivência"
+  subtitle: "IA para usuários de R"
+  author: "Vinicius Oike"
+  description: "Como usar assistentes, agentes, MCPs e skills para programar em R, e o que eu uso hoje."
+  site-url: "https://academy.ekio.io/livros/ia-para-r/"
+  repo-url: "https://github.com/viniciusoike/guia-ia-r"
+  repo-actions: [edit, issue]
+  favicon: assets/brand/favicon-32.png
+  open-graph: true
+  search: true
+  navbar:
+    logo: assets/brand/lockup-navy.svg
+    logo-alt: "EKIO"
+    logo-href: "https://academy.ekio.io"
+    title: "Academy"
+    background: "#F1F1F1"
+    foreground: "#373A3D"
+    right:
+      - text: "Livros"
+        href: "https://academy.ekio.io/livros.html"
+      - text: "ekio.io"
+        href: "https://ekio.io"
+  sidebar:
+    style: floating
+    background: "#F1F1F1"
+  page-footer:
+    background: "#F1F1F1"
+    foreground: "#52555A"
+    left: "© 2026 Vinicius Oike · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br)"
+    right: "[EKIO Academy](https://academy.ekio.io) · [GitHub](https://github.com/viniciusoike/guia-ia-r)"
+  chapters:
+    - index.qmd
+    - part: "Entendendo as ferramentas"
+      chapters:
+        - parte-1/historia.qmd
+        - parte-1/llms.qmd
+        - parte-1/modelos.qmd
+        - parte-1/interfaces.qmd
+        - parte-1/contexto.qmd
+        - parte-1/mcp.qmd
+        - parte-1/skills.qmd
+        - parte-1/orquestracao.qmd
+        - parte-1/llms-no-r.qmd
+        - parte-1/riscos.qmd
+    - part: parte-2/index.qmd
+      chapters:
+        - parte-2/setup.qmd
+        - parte-2/modelos-recomendados.qmd
+        - parte-2/fluxos.qmd
+        - parte-2/configuracoes.qmd
+  appendices:
+    - apendices/glossario.qmd
+    - apendices/changelog.qmd
+
+shortcodes:
+  - brl.lua
+
+# Part II prices. Update the rate and date together; {{< brl 20 >}}
+# converts US$ 20 to reais with IOF.
+cambio:
+  usd-brl: 5.50
+  iof: 0.035
+  data: "21/10/2026"
+
+parte2-atualizado: "21 de outubro de 2026"
+
+lang: pt
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+    include-in-header: head.html
+    highlight-style: assets/themes/material-palenight-r.theme
+    toc: true
+    toc-title: "Nesta página"
+    number-depth: 2
+    link-external-newwindow: true
+    code-copy: true
+
+execute:
+  eval: false

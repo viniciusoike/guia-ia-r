@@ -1,0 +1,5 @@
+# Glossário {#sec-glossario}
+
+::: {.callout-note appearance="simple"}
+Capítulo em desenvolvimento.
+:::

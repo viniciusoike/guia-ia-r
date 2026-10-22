@@ -1,0 +1,174 @@
+/*-- scss:defaults --*/
+
+// Guia de Sobrevivência — a trimmed copy of the EKIO Academy theme
+// (ekio-academy/static/theme.scss). Keep the tokens in sync by hand.
+// Tokens come from ekio/design/marca/tokens. Two surfaces only: a neutral
+// gray page and white paper for the band, code and charts. Navy for
+// headings and links. No radius, no shadow, no icons: separation is a 1px
+// rule or a change of surface.
+
+$page: #F1F1F1;
+$paper: #FEFEFE;
+$rule: #CFD2D5; // ekioplot gray.200; the brand hairline vanishes on gray
+$navy: #1E3A5F;
+$ink: #191A1C;
+$ink-700: #373A3D;
+$ink-600: #52555A; // muted text; gray.500 falls below AA on $page
+
+// One sans family for everything; Fira Code only for code.
+$font-sans: "Host Grotesk", "Helvetica Neue", Arial, sans-serif;
+$font-mono: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+
+$body-bg: $page;
+$body-color: $ink-700;
+$font-family-sans-serif: $font-sans;
+$font-family-monospace: $font-mono;
+$font-size-base: 1.0625rem;
+$line-height-base: 1.65;
+$headings-font-family: $font-sans;
+$headings-font-weight: 500;
+$headings-color: $navy;
+
+$primary: $navy;
+$link-color: $navy;
+$link-hover-color: $ink;
+$border-color: $rule;
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+$box-shadow: none;
+
+$navbar-bg: $page;
+$navbar-fg: $ink-700;
+$navbar-hl: $navy;
+$footer-bg: $page;
+$footer-fg: $ink-600;
+
+$code-color: $navy;
+$code-bg: $paper;
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+  letter-spacing: 0;
+  text-wrap: balance;
+  border-bottom: none;
+}
+
+p { text-wrap: pretty; }
+
+a { text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+
+// ── Navbar ─────────────────────────────────────────────────────────
+// One line: lockup and "Academy" on the left, five links on the right.
+
+.navbar {
+  border-bottom: 1px solid $rule;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+
+  .navbar-brand { display: flex; align-items: center; gap: 0.75rem; }
+  .navbar-logo { max-height: 30px; }
+
+  .navbar-title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: $navy;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    color: $ink-700;
+    padding-left: 0.9rem !important;
+    padding-right: 0.9rem !important;
+    transition: color 0.18s ease;
+
+    &:hover, &.active { color: $navy; }
+    &.active { text-decoration: underline; text-underline-offset: 0.45em; }
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-logo { max-height: 24px; }
+  .navbar .navbar-title { font-size: 1.05rem; }
+  .navbar .navbar-brand-container { max-width: none; overflow: visible; }
+}
+
+// ── Footer ─────────────────────────────────────────────────────────
+
+footer.footer { border-top: 1px solid $rule; }
+
+footer.footer .nav-footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-size: 0.875rem;
+  padding: 2rem;
+
+  a { color: $ink-600; text-decoration: none; }
+  a:hover { color: $navy; text-decoration: underline; }
+}
+
+// ── Articles ───────────────────────────────────────────────────────
+
+#title-block-header {
+  margin-top: 2.5rem;
+
+  .title { font-size: clamp(1.9rem, 1.5rem + 1.4vw, 2.6rem); line-height: 1.2; }
+  .subtitle { font-size: 1.15rem; color: $ink-600; }
+  .quarto-categories { display: none; }
+  .quarto-title-meta-heading { text-transform: none !important; letter-spacing: 0 !important; color: $ink-600; }
+}
+
+main.content h2 { font-size: 1.5rem; margin-top: 2.5rem; }
+main.content h3 { font-size: 1.2rem; }
+
+// Charts are exported on white; a white panel makes the edge deliberate.
+#quarto-content:not(.page-layout-full) main.content img {
+  max-width: 100%;
+  height: auto;
+  background: $paper;
+  padding: 1rem;
+}
+
+// Code keeps the Material Palenight highlight theme (set in _quarto.yml);
+// only size, spacing and corners change here.
+div.sourceCode { border: 0; border-radius: 0; }
+div.sourceCode pre { padding: 1.25rem; }
+div.sourceCode pre, pre.sourceCode code { font-size: 0.875rem; line-height: 1.4; }
+pre.numberSource code { left: 1.5em; }
+
+// Printed output (tibbles, console) is smaller than the code that made it.
+.cell-output pre,
+.cell-output-stdout pre {
+  font-size: 0.85rem;
+  line-height: 1.25;
+  background: $paper;
+  border-left: 1px solid $rule;
+  padding: 0.75rem 1rem;
+}
+
+#TOC, .sidebar nav[role="doc-toc"] {
+  .nav-link { font-size: 0.9rem; }
+  h2 { font-size: 0.9rem; color: $ink-600; }
+}
+
+// ── Book sidebar ───────────────────────────────────────────────────
+
+.sidebar.sidebar-navigation {
+  background: $page;
+  border-right: 1px solid $rule;
+
+  .sidebar-title { color: $navy; font-weight: 500; }
+  .sidebar-item-section > .sidebar-item-container .sidebar-item-text {
+    font-weight: 500;
+    color: $ink-700;
+  }
+  .sidebar-link.active { color: $navy; text-decoration: underline; }
+}
+
+.callout { border-radius: 0; }
